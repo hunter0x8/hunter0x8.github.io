@@ -33,3 +33,4 @@ jobs:
           token : ${{ secrets.PROFILEO_TOKEN }}
           branch: gh-pages 
           folder: build
+          repository-name: 'hunter0x8/hunter0x8.github.io'
