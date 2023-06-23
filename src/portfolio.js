@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "hash3liZer",
-  title: "Hey 👋 Its Shameer Kashif",
+  username: "hunter0x8",
+  title: "Hey 👋 Its Muhammad Ahsan",
   subTitle: emoji(
     "🚀 A Passionate Programmer with the love of Cyber Security and Automation. I love to design and program things and then also discover flaws in them. <code>type here</code>."
   ),
@@ -33,14 +33,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/hash3liZer",
-  linkedin: "https://www.linkedin.com/in/hash3lizer/",
-  gmail: "me@shameerkashif.io",
+  github: "https://github.com/hunter0x8",
+  linkedin: "https://www.linkedin.com/in/hunter0x8/",
+  gmail: "ahsan.shahid@yandex.com",
   gitlab: false,
   facebook: false,
   medium: "",
-  instagram: "https://instagram.com/shameerkashif_",
-  stackoverflow: "https://stackoverflow.com/users/8030629/shameer-kashif",
+  instagram: false,
+  stackoverflow: false,
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -66,7 +66,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "python-3/2",
+      skillName: "Burpsuite",
       fontAwesomeClassname: "fab fa-python"
     },
     {
@@ -140,10 +140,10 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Air University",
+      schoolName: "",
       logo: require("./assets/images/airunilogo.png"),
       subHeader: "Bachelors of Science in Cyber Security",
       duration: "2019 - 2023",
